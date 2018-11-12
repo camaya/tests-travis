@@ -2,12 +2,14 @@ language: python
 python:
   - "3.6"
 
+env:
+  secure: CLnJhZa205V8yndOoceupxOOVck9F990urmD/gGKmpBzmNQUMeyyiQ2r2H+v8XeD4qVI0oSVKynRAFAwjon7NJUlxTdRF6HtITJZlIehVp3I8tMgDZVOxO65LGxD7oP8eT/QoSMzCBO/cIsPxZ+l8q2yl+dvi8LIaJ39gCphZ7lkpm8AlMdCglzPrqMX7nyPYFFRd5DbEeU7dr+iUvcztf6rDPss6EXq/paBgJxr9S+hrIDvRKHB8Cm++ltFwagwqVjwf05SfeePSXMkySvqntUxLK0V+LcLHk/XCunWxZjPHLIhTN/G6BMQR1KvUBEyp/zrgiFSio0tJOB1cIoxZf4RAFVGY/Fmvnwa40u18fmn5XiVfnoqtPx6Hre9azEoy1CfeEmrHKCm5Y8PWHMJjAJh8XE++jRGXHk6PgX94wIIHVMHZUN9QQSW+ZaAMD+P8NT+pD2SmegfqnkzqYiAgYj7+Dflqk3U2DYMk2DgIRoFe5tAHm8gT7dqT10hUnrog1tOMYCGPXjqATZpqaww16Jo8JGLj/gOGtGeprKGyzE5sWQmO8eR7quYj7hG/CUwCz/CUdINa+wX8OtzlVfD/EU+LpM80evGdh25nN3ZFD212rdP9n3+j2+gKKDBvb+oqXRCtfn775GlVY2vM/l3pGK/4g5RpHdpyjZ/12vHAtI=
+
 branches:
   only:
     - master
 
 sudo: required
-
 services:
   - docker
 
