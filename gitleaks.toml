@@ -37,6 +37,10 @@ regex = '''xox[baprs]-([0-9a-zA-Z]{10,48})?'''
 [whitelist]
 regexes = [
     "AKIALALEMEL33243OLIA",
+    "AKIALALEMEL38243OLIAE",
+]
+files = [
+    "gitleaks.toml",
 ]
 #commits = [
 #  "BADHA5H1",
