@@ -39,6 +39,9 @@ regexes = [
     "AKIALALEMEL33243OLIA",
     "AKIALALEMEL38243OLIAE",
 ]
+files = [
+    "gitleaks.toml",
+]
 #commits = [
 #  "BADHA5H1",
 #  "BADHA5H2",
